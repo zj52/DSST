@@ -1,0 +1,31 @@
+[build]
+  command = "npm run build:prod"
+  publish = "build"
+
+# Handle client-side routing with React Router
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self' https://*.netlify.app https://api.dsst.example.com"
+
+# Environment variables
+[build.environment]
+  REACT_APP_ENVIRONMENT = "production"
+  
+# Staging environment settings
+[context.deploy-preview]
+  command = "npm run build"
+  
+[context.deploy-preview.environment]
+  REACT_APP_ENVIRONMENT = "staging"
+  REACT_APP_API_URL = "https://staging-api.dsst.example.com" 

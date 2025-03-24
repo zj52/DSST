@@ -10,7 +10,7 @@ The DSST application allows users to take the assessment online and provides an 
 
 - [`/frontend-new`](frontend-new/): Main application code
   - [README](frontend-new/README.md): Detailed information about the frontend application
-  - [Specification](frontend-new/docs/DSST_SPEC.md): Full application specification
+  - [Specification](frontend-new/docs/DSST_SPEC.md): Brief application specification
 
 ## Getting Started
 

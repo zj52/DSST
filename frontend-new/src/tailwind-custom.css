@@ -1,0 +1,91 @@
+/* Custom Tailwind-like utility classes */
+
+/* Text colors */
+.text-white { color: white; }
+.text-gray-700 { color: #4B5563; }
+.text-somnum-dark { color: #1e1f8e; }
+.text-somnum-light { color: #8b8aeb; }
+
+/* Background colors */
+.bg-white { background-color: white; }
+.bg-gray-50 { background-color: #F9FAFB; }
+.bg-somnum-dark { background-color: #1e1f8e; }
+.bg-somnum-light { background-color: #8b8aeb; }
+
+/* Font sizing */
+.text-sm { font-size: 0.875rem; }
+.text-base { font-size: 1rem; }
+.text-lg { font-size: 1.125rem; }
+.text-xl { font-size: 1.25rem; }
+.text-2xl { font-size: 1.5rem; }
+.text-3xl { font-size: 1.875rem; }
+
+/* Font weight */
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+
+/* Flexbox */
+.flex { display: flex; }
+.flex-row { flex-direction: row; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+
+/* Spacing */
+.p-2 { padding: 0.5rem; }
+.p-4 { padding: 1rem; }
+.p-6 { padding: 1.5rem; }
+.px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+.py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+
+.m-2 { margin: 0.5rem; }
+.m-4 { margin: 1rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+.mr-2 { margin-right: 0.5rem; }
+
+/* Width & Height */
+.w-10 { width: 2.5rem; }
+.h-10 { height: 2.5rem; }
+.min-h-screen { min-height: 100vh; }
+.w-full { width: 100%; }
+
+/* Borders */
+.rounded { border-radius: 0.25rem; }
+.rounded-md { border-radius: 0.375rem; }
+.rounded-lg { border-radius: 0.5rem; }
+.rounded-full { border-radius: 9999px; }
+
+/* Effects */
+.shadow { box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); }
+.shadow-md { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
+
+/* Transitions */
+.transition-colors { transition-property: background-color, border-color, color, fill, stroke; }
+.duration-300 { transition-duration: 300ms; }
+
+/* Hover */
+.hover\:bg-somnum-light:hover { background-color: #8b8aeb; }
+
+/* Custom utility for Somnum-themed components */
+.btn-somnum {
+  padding: 0.75rem 1.5rem;
+  background-color: #1e1f8e;
+  color: white;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-somnum:hover {
+  background-color: #8b8aeb;
+} 

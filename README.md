@@ -26,7 +26,7 @@ See the [frontend README](frontend-new/README.md) for detailed instructions on i
 
 ## Live Demo
 
-You can try the application online at: [DSST Application Demo](https://YOUR_USERNAME.github.io/DSST)
+You can try the application online at: [DSST Application Demo](https://zj52.github.io/DSST)
 
 ## License
 

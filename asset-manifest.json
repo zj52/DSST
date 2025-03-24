@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DSST/static/css/main.b2424e43.css",
+    "main.js": "/DSST/static/js/main.52ec7569.js",
+    "static/js/453.141ca1a3.chunk.js": "/DSST/static/js/453.141ca1a3.chunk.js",
+    "index.html": "/DSST/index.html",
+    "main.b2424e43.css.map": "/DSST/static/css/main.b2424e43.css.map",
+    "main.52ec7569.js.map": "/DSST/static/js/main.52ec7569.js.map",
+    "453.141ca1a3.chunk.js.map": "/DSST/static/js/453.141ca1a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2424e43.css",
+    "static/js/main.52ec7569.js"
+  ]
+}

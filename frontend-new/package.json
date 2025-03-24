@@ -2,7 +2,7 @@
   "name": "dsst-application",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://YOUR_USERNAME.github.io/DSST",
+  "homepage": "https://zj52.github.io/DSST",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -47,17 +47,20 @@
     ]
   },
   "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
     "autoprefixer": "^10.4.13",
     "env-cmd": "^10.1.0",
     "gh-pages": "^5.0.0",
     "netlify-cli": "^13.2.2",
-    "postcss": "^8.4.21"
+    "postcss": "^8.4.21",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^10.1.5"
   },
   "author": "DSST Project",
   "description": "Digit Symbol Substitution Test (DSST) for cognitive assessment - An open-source web application",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/DSST"
+    "url": "https://github.com/zj52/DSST"
   },
   "engines": {
     "node": ">=14.0.0",

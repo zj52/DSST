@@ -109,28 +109,27 @@ This will create a `build` directory with optimized files ready for deployment.
 
 ### Deploy to GitHub Pages
 
-1. Update the `homepage` field in `package.json`:
-   ```json
-   "homepage": "https://[YOUR-USERNAME].github.io/DSST"
-   ```
+After pushing your repository to GitHub, to deploy to GitHub Pages:
 
-2. Install the GitHub Pages package:
-   ```bash
-   npm install --save-dev gh-pages
-   ```
+1. Go to your GitHub repository
+2. Navigate to Settings > Pages
+3. In the "Source" section, select "Deploy from a branch"
+4. Choose the "main" branch and "/docs" folder
+5. Click "Save"
 
-3. Add deployment scripts to `package.json`:
-   ```json
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
-   }
-   ```
+GitHub will generate a URL where your application is hosted (typically `https://[YOUR-USERNAME].github.io/DSST`).
 
-4. Deploy to GitHub Pages:
-   ```bash
-   npm run deploy
-   ```
+### Alternative Deployment Method
+
+You can also deploy directly using the gh-pages npm package:
+
+```bash
+cd frontend-new
+npm install --save-dev gh-pages
+npm run deploy
+```
+
+This will deploy the application from the build folder to the gh-pages branch, which GitHub can then serve.
 
 ## License
 

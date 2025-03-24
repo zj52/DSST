@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, KeyboardEvent, useCallback, useMemo } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 import './App.css';
 
 // Define types for our data structures
